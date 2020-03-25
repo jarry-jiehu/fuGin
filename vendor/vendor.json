@@ -1,0 +1,85 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "KYs4+tiAGsmdL//ZObAh6k2UB+4=",
+			"path": "github.com/antonfisher/nested-logrus-formatter",
+			"revision": "31374f384db8eb03443b1b1ad5f491e3880e95b6",
+			"revisionTime": "2020-02-02T06:50:07Z"
+		},
+		{
+			"checksumSHA1": "qlEzrgKgIkh7y0ePm9BNo1cNdXo=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "43f0f29dbd2b3f0feeebff91fd9cda22db296938",
+			"revisionTime": "2019-09-05T05:13:34Z"
+		},
+		{
+			"checksumSHA1": "v4yqfq5LT9YSlb8hpNn3JjERucM=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "07a6818d24f9b0e3c97b6c44e19af877003bad46",
+			"revisionTime": "2020-03-23T10:00:58Z"
+		},
+		{
+			"checksumSHA1": "VGrSfi6ORVO4G4bdQYtp2cZVEdI=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "07a6818d24f9b0e3c97b6c44e19af877003bad46",
+			"revisionTime": "2020-03-23T10:00:58Z"
+		},
+		{
+			"checksumSHA1": "/81vKkFpIIiNB/QszbfwiWfX1tk=",
+			"path": "github.com/gin-gonic/gin/internal/bytesconv",
+			"revision": "07a6818d24f9b0e3c97b6c44e19af877003bad46",
+			"revisionTime": "2020-03-23T10:00:58Z"
+		},
+		{
+			"checksumSHA1": "rST0S8cuVbM57VmJhWXhKNUkKTc=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "07a6818d24f9b0e3c97b6c44e19af877003bad46",
+			"revisionTime": "2020-03-23T10:00:58Z"
+		},
+		{
+			"checksumSHA1": "ZHiNx6a8A8f4x7EeT8N3EEx9e5Q=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "07a6818d24f9b0e3c97b6c44e19af877003bad46",
+			"revisionTime": "2020-03-23T10:00:58Z"
+		},
+		{
+			"checksumSHA1": "qlPUeFabwF4RKAOF1H+yBFU1Veg=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "e325f446bebc2998605911c0a2650d9920361d4a",
+			"revisionTime": "2017-06-13T22:42:24Z"
+		},
+		{
+			"checksumSHA1": "CQ794EIFp/4zTVi4redzOXOPY8k=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "cb30d6282491c185f77d9bec5d25de1bb61a06bc",
+			"revisionTime": "2020-01-28T10:39:42Z"
+		},
+		{
+			"checksumSHA1": "TsAhQHQAQko0iU7Y4CEZAwA1nic=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "d417be0fe654de640a82370515129985b407c7e3",
+			"revisionTime": "2020-03-22T13:43:59Z"
+		},
+		{
+			"checksumSHA1": "zlC1AosFYPVTWsph2jfYIHoL9rk=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "03e33114d4d60a1f37150325e15f51b0fa6fc4f6",
+			"revisionTime": "2015-07-19T17:59:23Z"
+		},
+		{
+			"checksumSHA1": "YfJoUcabFvOmA4QN35p4IqjVJlI=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "85ca7c5b95cdf1e557abb38a283d1e61a5959c31",
+			"revisionTime": "2020-03-23T19:04:34Z"
+		},
+		{
+			"checksumSHA1": "dIH8v3OdMGX07t3yJGMODGFUKPg=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "53403b58ad1b561927d19068c655246f2db79d48",
+			"revisionTime": "2020-01-21T17:19:40Z"
+		}
+	],
+	"rootPath": "yxauth"
+}
