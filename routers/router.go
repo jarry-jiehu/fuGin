@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	"yxauth/controllers"
+	"fuGin/controllers"
 )
 
 var ginRouter *gin.Engine
@@ -17,9 +17,8 @@ func SetupRouter() *gin.Engine {
 	g1 := ginRouter.Group("/auth")
 
 	authCtrl := new(controllers.AuthController)
-	g1.POST("/login", authCtrl.AuthLogIn).
-		POST("/signin", authCtrl.AuthSignIn)
-
+	g1.POST("/login", authCtrl.AuthLogIn)
+	g1.POST("/signin", authCtrl.AuthSignIn)
 
 	return ginRouter
 }

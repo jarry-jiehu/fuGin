@@ -2,7 +2,7 @@ package controllers
 
 import (
 	"github.com/gin-gonic/gin"
-	"yxauth/utils"
+	"fuGin/utils"
 )
 
 type AuthController struct {

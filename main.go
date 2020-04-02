@@ -1,8 +1,9 @@
 package main
 
 import (
-	"yxauth/routers"
-	"yxauth/utils"
+	"fuGin/routers"
+	"fuGin/utils"
+	"fuGin/models"
 )
 
 func main() {
@@ -10,5 +11,17 @@ func main() {
 
 	log.Info("-------logrus test --------")
 
-	r.Run(":8080")
+	add, _ := models.GetCfg().GetValue("redis", "address")
+	name, _ := models.GetCfg().GetValue("sec1", "name")
+	test, _ := models.GetCfg().GetValue("", "test")
+
+	redissec, _ := models.GetCfg().GetSection("redis")
+	str := redissec["password"]
+	log.Infof("-------logrus test -------- %s", str)
+
+	log.Infof("-------logrus test -------- %s", add)
+	log.Infof("-------logrus test -------- %s", name)
+	log.Infof("-------logrus test -------- %s", test)
+
+	r.Run(":8081")
 }
